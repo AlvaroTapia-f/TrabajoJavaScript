@@ -1,15 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Trabajo Práctico Js</title>
   </head>
   <body>
-    <div id="app">
-      <h1>Primer Js</h1>
+    <div class="contenedor">
+      <header>
+        <h1 id="titulo">Trabajo Práctico JavaScript</h1>
+      </header>
+      <main>
+        <section class="seccion">
+          <h2>Introducción a JavaScript</h2>
+          <article class="articulo">
+            <h3>Suma de dos números</h3>
+            <p>
+              Un Script que realiza la suma de dos números, muestra el resultado
+              en consola.
+            </p>
+            <script src="suma.js"></script>
+          </article>
+          <article class="articulo">
+            <h3>Saludo</h3>
+            <p>
+              Script que pide al usuario su nombre y luego escribe un saludo con
+              su nombre por consola
+            </p>
+            <button class="boton" onclick="saludar()">Ingresar nombre</button>
+            <script src="saludo.js"></script>
+          </article>
+        </section>
+        <section class="seccion">
+          <h2>Operadores lógicos y condicionales</h2>
+          <article class="articulo">
+            <h3>Mayor de dos números</h3>
+            <p>
+              Script que realiza una comparación entre dos números para
+              determinar cual es mayor. El resultado se muestra por consola
+            </p>
+            <script src="mayor.js"></script>
+          </article>
+          <article class="articulo">
+            <h3>Número par o impar</h3>
+            <p>Script que determina si un número es par o impar</p>
+            <button class="boton" onclick="esPar()">Ingresar un número</button>
+            <script src="esPar.js"></script>
+          </article>
+        </section>
+        <section class="seccion">
+          <h2>Operadores de asignación y bucles</h2>
+          <article class="articulo">
+            <h3>Bucle while</h3>
+            <p>
+              Script que inicializa una variable en 10 y utilizando un bucle
+              while le resta 1 hasta dejarla en 0. El resultado se muestra por
+              consola.
+            </p>
+          </article>
+          <article class="articulo">
+            <h3>Bucle Do...While</h3>
+            <p>
+              Script que pide al usuario un número. Este número debe ser mayor
+              que cien, de otro modo seguirá pidiendo que ingrese un valor.
+            </p>
+            <button class="boton" onclick="MayorQueCien()">
+              Ingresar un número
+            </button>
+          </article>
+          <script src="operadoresAsinacionYBucles.js"></script>
+        </section>
+        <section class="seccion">
+          <h2>Funciones en JavaScript</h2>
+          <article class="articulo">
+            <h3>Funcion esPar</h3>
+            <p>
+              Función que recibe un número como parametro y retorna true si el
+              número es par, y false si es impar. El resultado se muestra por
+              consola.
+            </p>
+          </article>
+          <article>
+            <h3>Funcion convertir de grados Celsius a Fahrenheit</h3>
+            <p>
+              Función que recibe un valor en grados celsius y lo convierte a
+              grados fahrenheit. El resultado se muestra por consola.
+            </p>
+          </article>
+          <script src="funciones.js"></script>
+        </section>
+        <section class="seccion">
+          <h2>Objetos</h2>
+          <article class="articulo">
+            <h3>Objeto persona</h3>
+            <p>
+              Script que define un objeto persona con varias propiedades, y
+              luego agregar un método para poder cambiar la ciudad de la
+              persona. Se muestran las propiedades por consola.
+            </p>
+          </article>
+          <article>
+            <h3>Objeto Libro</h3>
+            <p>
+              Script que crea un objeto libro con varias propiedades y determina
+              ,mediante una función, si el libro tiene o no más de 10 años. El
+              resultado se muestra por consola.
+            </p>
+          </article>
+          <script src="objetos.js"></script>
+        </section>
+        <section class="seccion">
+          <h2>Arreglos</h2>
+          <article class="articulo">
+            <h3>Arreglo numeros</h3>
+            <p>
+              Script que crea un arreglo de números y luego, mediante bucles,
+              multiplica cada número por 2 y lo almacena en otro arreglo. El
+              resultado se muestra por consola.
+            </p>
+          </article>
+          <h3>Arreglo de pares</h3>
+          <p>
+            Script que crea un arreglo de números y luego determina cuáles son
+            pares y los almacena dentro de otro arrelo. El resultado se muestra
+            en consola.
+          </p>
+          <script src="arrays.js"></script>
+        </section>
+      </main>
     </div>
-    <script type="module" src="/main.js"></script>
   </body>
 </html>
