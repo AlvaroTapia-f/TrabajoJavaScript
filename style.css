@@ -10,3 +10,12 @@ body{
   border-radius: 4px;
   background-color:beige;
 }
+.textoAzul{
+  color: blue;
+}
+.articulo{
+  margin: 1rem 0;
+}
+.botonOculto{
+  display: none;
+}

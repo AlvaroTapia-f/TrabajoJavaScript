@@ -128,6 +128,75 @@
           </p>
           <script src="arrays.js"></script>
         </section>
+        <section class="seccion">
+          <h2>Introducción al DOM</h2>
+          <article class="articulo">
+            <h3>Cambiar párrafos de color</h3>
+            <p class="cambioColor">Este es el primer párrafo</p>
+            <p class="cambioColor">Este es el segundo párrafo</p>
+            <p class="cambioColor">Este es el tercer párrafo</p>
+            <button class="boton" id="botonCambioColor">
+              Cambiar color a azul
+            </button>
+          </article>
+          <article class="articulo">
+            <h3>Formulario con alerta</h3>
+            <div class="form">
+              <label for="texto">Ingrese un texto: </label>
+              <input type="text" id="texto" />
+              <button class="boton" id="botonInput">Mostrar Alerta</button>
+            </div>
+          </article>
+          <script src="introduccionDOM.js"></script>
+        </section>
+        <section class="seccion">
+          <h2>Eventos en DOM</h2>
+          <article class="articulo">
+            <h3>Lista con elementos</h3>
+            <div class="list_ul">
+              <ul>
+                <li class="elementoClick">Elemento 1</li>
+                <li class="elementoClick">Elemento 2</li>
+                <li class="elementoClick">Elemento 3</li>
+                <li class="elementoClick">Elemento 4</li>
+              </ul>
+            </div>
+          </article>
+          <article class="articulo">
+            <h3>Campo de texto y botones</h3>
+            <div class="form">
+              <input
+                type="text"
+                id="campoHabilitable"
+                placeholder="Ingrese algo"
+              />
+              <button class="boton" id="botonDeshabilitar">
+                Deshabilitar campo
+              </button>
+              <button class="boton" id="botonHabilitar">Habilitar campo</button>
+            </div>
+          </article>
+          <script src="eventosDOM.js"></script>
+        </section>
+        <section class="seccion">
+          <h2>Locar Storage</h2>
+          <div class="form">
+            <form action="">
+              <div class="formPart">
+                <label for="email">Correo Electrónico: </label>
+                <input type="email" id="email" />
+                <button class="boton" id="bottGuardarCorreo">
+                  Guardar Correo
+                </button>
+                <p id="emailGuardado"></p>
+                <button class="boton" id="bottEliminarCorreo">
+                  Eliminar Correo Guardado
+                </button>
+              </div>
+            </form>
+          </div>
+          <script src="locarStorage.js"></script>
+        </section>
       </main>
     </div>
   </body>
